@@ -16,6 +16,19 @@ namespace EntityFramework.OracleHelpers
     public static class EntityFrameworkOracleExtensions
     {
         /// <summary>
+        /// Automagically apply all conventions with default values if on Oracle connection, otherwise do nothing
+        /// </summary>
+        /// <param name="context">Entity Framework DbContext instance</param>
+        /// <param name="modelBuilder">Entity Framework DbModelBuilder instance</param>
+        public static void ApplyAllConventionsIfOracle(this DbContext context, DbModelBuilder modelBuilder)
+        {
+            if (context.IsOracle())
+            {
+                ApplyAllOracleConventions(modelBuilder);
+            }
+        }
+
+        /// <summary>
         /// Apply all Oracle conventions with default values.
         /// </summary>
         /// <param name="modelBuilder">Entity Framework DbModelBuilder instance</param>

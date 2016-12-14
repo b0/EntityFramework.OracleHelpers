@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("EntityFramework.OracleHelpers")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Configures standard Oracle uppercase naming conventions for Entity Framework DbContext")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("EntityFramework.OracleHelpers")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyCopyright("Copyright © 2016 Marko Matić")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
