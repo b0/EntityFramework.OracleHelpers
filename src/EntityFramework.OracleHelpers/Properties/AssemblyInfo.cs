@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("EntityFramework.OracleHelpers")]
 [assembly: AssemblyDescription("Configures standard Oracle uppercase naming conventions for Entity Framework DbContext")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Marko Matić")]
 [assembly: AssemblyProduct("EntityFramework.OracleHelpers")]
 [assembly: AssemblyCopyright("Copyright © 2016 Marko Matić")]
 [assembly: AssemblyTrademark("")]

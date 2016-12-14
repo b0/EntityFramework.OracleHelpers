@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>EntityFramework.OracleHelpers</id>
+    <version>$version$</version>
+    <title>EntityFramework Oracle Helpers</title>
+    <authors>$author$</authors>
+    <owners>markom</owners>
+    <licenseUrl>https://github.com/b0/EntityFramework.OracleHelpers/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/b0/EntityFramework.OracleHelpers</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/b0/EntityFramework.OracleHelpers/master/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>$copyright$</copyright>
+    <tags>oracle entityframework uppercase conventions</tags>
+	<dependencies>
+      <dependency id="EntityFramework" version="6.1.3" />
+    </dependencies>
+  </metadata>
+</package>
